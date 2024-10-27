@@ -36,18 +36,17 @@ footer {
   margin-top: 15px;
 }
 .main-4 {
-  height: 1295px;
+  height: calc(1295px - 260px);
   background-color: #ffffff;
   margin-top: 18px;
 }
 .main-5 {
-  height: 1304px;
   background-color: #ffffff;
   margin-top: 10px;
 }
 .main-6 {
-  height: 430px;
-  background-color: #ffffff;
+  height: 300px;
+  /* background-color: #ffffff; */
   margin-top: 15px;
 }
 .main-7 {
@@ -193,5 +192,35 @@ a:hover {
 }
 .main-4-banner-img-box {
   height: 221px;
-  border: 1px solid black;
+}
+.banner-3 {
+  height: 454px;
+}
+.main-5-header {
+  height: 70px;
+}
+.section-5-1 {
+  height: 290px;
+}
+.brand-img-box {
+  height: 264px;
+  border-radius: 10px;
+}
+
+.gaget-img {
+  height: 270px;
+}
+.main-6-header {
+  height: 50px;
+}
+.box-1 {
+  height: 250px;
+}
+.main-6 .a__carousel_ctrl {
+  width: 3.5%;
+  background-color: #ffff;
+  opacity: 1;
+  height: 40%;
+  margin-top: 65px;
+  color: #212121;
 }
