@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   background-color: #f1f2f4;
 }
@@ -223,4 +227,91 @@ a:hover {
   height: 40%;
   margin-top: 65px;
   color: #212121;
+}
+.header-box {
+  height: 60px;
+  width: 1139px;
+}
+@font-face {
+  font-family: logo-font;
+  src: url("fonts/Riona\ Sans\ W01\ Bold\ Italic.ttf");
+}
+.logo-h2 {
+  color: #2a55e5;
+  font-weight: bold;
+  font-size: 26px;
+  font-family: logo-font;
+}
+.logo p {
+  font-size: 13px;
+  font-family: logo-font;
+  color: #9e9e9e;
+  margin-top: -10px;
+}
+.plus {
+  color: #ffc200;
+}
+.search-box {
+  margin-left: 40px;
+}
+.search-bar {
+  width: 439px;
+  height: 41px;
+  border-radius: 5px;
+  line-height: 41px;
+}
+input[type="search"]::placeholder {
+  font-size: 17px;
+}
+
+input[type="search"]:focus {
+  box-shadow: none;
+  background-color: #f0f5ff;
+}
+input[type="search"] {
+  box-shadow: none;
+  background-color: #f0f5ff;
+}
+.lbtn {
+  width: 123px;
+  height: 37px;
+  background-color: #ffffff;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+.lbtn:hover {
+  color: white;
+  background-color: blue;
+}
+.cart-btn {
+  width: 90px;
+  height: 37px;
+  margin-left: 40px;
+}
+.cart-btn a {
+  font-size: 16px;
+}
+.seller-btn {
+  width: 195px;
+  height: 37px;
+
+  margin-left: 30px;
+}
+.seller-btn a {
+  font-size: 16px;
+}
+.more-btn {
+  height: 37px;
+  width: 40px;
+  margin-left: 30px;
+}
+
+.more-btn a {
+  font-size: 16px;
+}
+.more-btn:hover {
+  border: 1px solid #8e8e8e;
+  border-radius: 10px;
+  background-color: #f2f2f2;
 }
