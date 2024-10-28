@@ -84,6 +84,12 @@
         background-image: url("img/template/bn.png");
         background-size: cover;
       }
+      .payment-box {
+        height: 23px;
+        width: 180px;
+        background-image: url("img/template/footer.svg");
+        background-size: cover;
+      }
     </style>
   </head>
   <body>
@@ -105,16 +111,53 @@
               />
             </div>
             <div class="login-btn ms-4">
-              <button class="lbtn">
-                <i class="fa-regular fa-circle-user me-3"></i>
-                Login <i class="fa-solid fa-chevron-down ms-3"></i>
-              </button>
+              <div class="dropdown">
+                <button class="lbtn">
+                  <i class="fa-regular fa-circle-user me-3"></i>
+                  Login <i class="fa-solid fa-chevron-down ms-3"></i>
+                </button>
+
+                <div class="dropdown-content p-0">
+                  <div class="dropdown-header">
+                    <div class="row m-0 h-100">
+                      <div class="col-md-6 d-flex align-items-center">
+                        <p><a href="">New customer</a></p>
+                      </div>
+                      <div class="col-md-6 d-flex align-items-center">
+                        <p>
+                          <a href=""><b class="text-primary">Sign Up</b></a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="#"
+                    ><i class="fa-regular fa-circle-user me-3"></i>My Profile</a
+                  >
+                  <a href="#"
+                    ><i class="fa-solid fa-add me-3"></i>Flipkart Plus Zone</a
+                  >
+                  <a href="#"> <i class="fa-solid fa-box me-3"></i> Orders </a>
+                  <a href="#">
+                    <i class="fa-regular fa-heart me-3"></i> Wishlist
+                  </a>
+                  <a href="#">
+                    <i class="fa-solid fa-gift me-3"></i> Rewards
+                  </a>
+                  <a href="#">
+                    <i class="fa-solid fa-hands-holding me-3"></i> Gift Cards
+                  </a>
+                </div>
+              </div>
             </div>
             <div
               class="cart-btn d-flex justify-content-center align-items-center"
             >
               <a href="">
-                <i class="fa-solid fa-shopping-cart me-3"></i>
+                <i class="fa-solid fa-shopping-cart me-3 cart-1"
+                  ><div class="sup">
+                    <small>1</small>
+                  </div></i
+                >
                 Cart
               </a>
             </div>
@@ -126,12 +169,32 @@
                 Become a Seller
               </a>
             </div>
-            <div
-              class="more-btn d-flex justify-content-center align-items-center"
-            >
-              <a href="">
-                <i class="fa-solid fa-ellipsis-vertical"></i>
-              </a>
+            <div class="dropdown-2">
+              <div
+                class="more-btn d-flex justify-content-center align-items-center"
+              >
+                <a href="">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </a>
+              </div>
+              <div class="dropdown-content-2">
+                <a href="#">
+                  <i class="fa-solid fa-bell me-2"></i>
+                  Notifications
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-headphones me-2"></i>
+                  24X7 customer Care
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-arrow-trend-up me-2"></i>
+                  Advertise
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-download me-2"></i>
+                  Download App
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -1553,7 +1616,7 @@
               <p style="font-size: 13px" class="mt-3">
                 <span>MOST SEARCHED FOR ON FLIPKART:</span
                 ><span>
-                  <a href=""
+                  <a href="" style="font-size: 12px"
                     >iphone 16 | iphone 16 Plus | iphone 16 Pro | iphone 16 Pro
                     Max | Whoop Band | Flipkart Exchange | OnePlus 16 | OnePlus
                     16 Pro | OnePlus 16 Pro Max | Flipkart Express | Flipkart
@@ -1582,7 +1645,122 @@
       </main>
     </div>
     <footer>
-      <div class="footer-top"></div>
+      <div class="footer-top d-flex align-items-center">
+        <div class="section-footer">
+          <div class="row p-4">
+            <div class="col p-0">
+              <p class="p-0">ABOUT</p>
+              <p>
+                <a href="#"><b>Contact Us</b></a>
+              </p>
+              <p>
+                <a href="#"><b>About Us</b></a>
+              </p>
+              <p>
+                <a href="#"><b>Careers</b></a>
+              </p>
+              <p>
+                <a href="#"><b>Flipkart Stories</b></a>
+              </p>
+              <p>
+                <a href="#"><b>Press</b></a>
+              </p>
+              <p>
+                <a href="#"><b>Corporate Information</b></a>
+              </p>
+            </div>
+            <div class="col">
+              <p>GROUP COMPANIES</p>
+              <p>
+                <a href="#"><b>Myntra</b></a>
+              </p>
+              <p>
+                <a href="#"><b>Cleartrip</b></a>
+              </p>
+              <p>
+                <a href="#"><b>Shopsy</b></a>
+              </p>
+            </div>
+            <div class="col">
+              <p>HELP</p>
+              <p>
+                <a href="#"><b>Payments</b></a>
+              </p>
+              <p>
+                <a href="#"><b>Shipping</b></a>
+              </p>
+              <p>
+                <a href="#"><b>Cancellation &amp; Returns</b></a>
+              </p>
+              <p>
+                <a href="#"><b>FAQ</b></a>
+              </p>
+              <p>
+                <a href="#"><b>Report Infringement</b></a>
+              </p>
+            </div>
+            <div class="col bor-1">
+              <p>CONSUMER POLICY</p>
+              <p>
+                <a href="#"><b>Cancellation &amp; Returns</b></a>
+              </p>
+              <p>
+                <a href="#"><b>Teams Of Use</b></a>
+              </p>
+              <p>
+                <a href="#"><b>Security</b></a>
+              </p>
+              <p>
+                <a href="#"><b>Privacy</b></a>
+              </p>
+              <p>
+                <a href="#"><b>Sitemap</b></a>
+              </p>
+              <p>
+                <a href="#"><b>Grivance Redressal</b></a>
+              </p>
+              <p>
+                <a href="#"><b>EPR Compliance</b></a>
+              </p>
+            </div>
+            <div class="col">
+              <p>Mail Us:</p>
+              <small>
+                <address class="text-white">
+                  <a href="">
+                    Flipkart Internet Private Limited, Building Alyssa, Begonia
+                    &amp; Clove Embassy Tech Village, Outer Ring Road,
+                    Devrabessanahalli , Bangalore - 560006, Karnataka,India
+                  </a>
+                </address>
+              </small>
+              <p>Social:</p>
+              <span class="text-white"
+                ><i class="fa-brands fa-facebook fa-2x ms-2"></i
+                ><i class="fa-brands fa-twitter fa-2x ms-2"></i
+                ><i class="fa-brands fa-youtube fa-2x ms-2"></i
+              ></span>
+            </div>
+            <div class="col">
+              <p>Registered Office Address:</p>
+              <small class="ss-2">
+                <address class="text-white">
+                  <a href="">
+                    Flipkart Internet Private Limited, Building Alyssa, Begonia
+                    &amp; Clove Embassy Tech Village, Outer Ring Road,
+                    Devrabessanahalli , Bangalore - 560006, Karnataka,India
+                    <br />
+                    CIN : U51109KA2012PTC066107 Telephone :
+                    <a href="" class="text-primary">
+                      044-45614700 / 044-67415800
+                    </a>
+                  </a>
+                </address>
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="footer-bottom">
         <div class="row h-100">
           <div class="col d-flex align-items-center">
@@ -1611,6 +1789,11 @@
               </li>
               <li>
                 <a href="" class="text-white"> &copy; 2007-2024 Flipkart.com</a>
+              </li>
+              <li>
+                <a href="" class="text-white">
+                  <div class="payment-box"></div>
+                </a>
               </li>
             </ul>
           </div>
