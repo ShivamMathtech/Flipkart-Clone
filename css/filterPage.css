@@ -1,0 +1,374 @@
+.sign-in-page {
+  background-color: #f1f3f6;
+}
+header {
+  height: 120px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.header-top {
+  height: 70px;
+  background-color: #2874f0;
+}
+.header-bottom {
+  height: 50px;
+  background-color: #ffffff;
+}
+.nav-box {
+  height: 63px;
+}
+@font-face {
+  font-family: logo-font;
+  src: url("/css/fonts/Riona\ Sans\ W01\ Bold\ Italic.ttf");
+}
+.logo-h2 {
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 600px;
+  font-family: logo-font;
+}
+a:hover {
+  text-decoration: none;
+  background-color: transparent;
+}
+.myp {
+  font-size: 12px;
+  color: #ffffff;
+  font-family: logo-font;
+  margin-top: -6px;
+}
+.plus {
+  color: #ffe500;
+}
+.mySearch {
+  width: 500px;
+  height: 43px;
+  margin-left: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+input[type="search"] {
+  font-size: 17px;
+}
+.login-btn {
+  margin-left: 30px;
+}
+.mybtn-1 {
+  width: 150px;
+  height: 35px;
+  font-size: 16px;
+  color: #2874f0;
+  font-weight: 500;
+}
+.Seller {
+  margin-left: 30px;
+}
+.Seller a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.dropdown {
+  margin-left: 30px;
+}
+.dropdown a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.cart {
+  margin-left: 30px;
+}
+
+.cart a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.nav-box-2 {
+  height: 45px;
+}
+.nav-link {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+a {
+  text-decoration: none;
+}
+.nav-link i {
+  font-size: 10px;
+  color: #c3c3c3;
+}
+.nav-item:hover {
+  background-color: transparent;
+}
+.filter-item-page {
+  height: 1000px;
+  display: flex;
+  background-color: #f1f3f6;
+}
+.filter-2-1 {
+  width: 300px;
+  height: 700px;
+
+  background-color: #ffffff;
+}
+.filter-2-2 {
+  height: 995px;
+  width: 98%;
+  margin-left: 5px;
+  border: 1px solid black;
+  background-color: #ffffff;
+}
+.filter-header {
+  height: 60px;
+  border-bottom: 1.5px solid #f0f0f0;
+}
+.section-1 {
+  border-bottom: 2px solid #f0f0f0;
+}
+.section-1 p {
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.cat-div {
+  margin-top: -10px;
+  margin-left: 50px;
+}
+
+.collapsible {
+  background-color: #ffffff;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.content a {
+  color: black;
+}
+.section-2 {
+  border-bottom: 2px solid #f0f0f0;
+}
+.section-2 p {
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.section-3 {
+  border-bottom: 2px solid #f0f0f0;
+}
+.assurd-img {
+  width: 140px;
+  height: 20px;
+  background-image: url("/img/template/assurd.png");
+  background-size: contain;
+  margin-left: 10px;
+  background-repeat: no-repeat;
+}
+.section-4 {
+  border-bottom: 2px solid #f0f0f0;
+}
+.collapsible2 {
+  cursor: pointer;
+  font-weight: bold;
+  /* padding: 10px;
+  background-color: #007bff; */
+  /* color: white; */
+  border: none;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+}
+
+.content2 {
+  display: none;
+  margin-left: 20px;
+}
+
+.content2 li {
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+.active + .content2 {
+  display: block;
+}
+footer {
+  height: 350px;
+  background-color: #172337;
+}
+.footer-top {
+  height: 290px;
+}
+.footer-bottom {
+  height: 60px;
+  border-top: 1px solid #454d5e;
+}
+.footer-bottom ul {
+  list-style: none;
+  font-size: 14px;
+  display: flex;
+}
+
+.footer-bottom ul li {
+  margin-right: 30px;
+}
+.footer-bottom ul a {
+  color: white;
+}
+.footer-img {
+  margin-left: 170px;
+  height: 20px;
+  width: 350px;
+  background-image: url("/img/template/footer.svg");
+  background-size: cover;
+}
+/* .footer-content {
+  height: 222px;
+  margin: 20px auto;
+} */
+.footer-content .col p {
+  color: #6a8787;
+  font-size: 16px;
+}
+.footer-content a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.brr-1 {
+  border-right: 1px solid #6a8787;
+  height: 98%;
+}
+.footer-content address {
+  font-size: 14px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 4px;
+  margin-left: -50px;
+}
+.arrowbox {
+  top: 30px;
+  left: 85px;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 10px solid #ffffff;
+  display: none;
+  margin-left: -40px;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  width: 230px;
+  font-size: 16px;
+  font-weight: normal;
+  border-bottom: 1px solid #ddd;
+}
+
+.dropdown:hover .arrowbox {
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content-1 {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-left: -50px;
+}
+.dropdown-content-1 a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  width: 230px;
+  font-size: 16px;
+  font-weight: normal;
+  border-bottom: 1px solid #ddd;
+}
+.dropdown-conten-1 a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .arrowbox {
+  display: block;
+}
+.dropdown:hover .dropdown-content-1 {
+  display: block;
+}
+.dropdown-bottom {
+  position: relative;
+  display: inline-block;
+}
+.electronic-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 1250px;
+  height: 500px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 2px;
+}
+/*  */
+.dropdown-bottom:hover .electronic-content {
+  display: block;
+}
+table {
+  border: none;
+}
+tr {
+  font-size: 14px;
+}
+.ele {
+  margin-left: 10px;
+}
+.tv {
+  margin-left: -114px;
+}
+.men {
+  margin-left: -280px;
+}
+.women {
+  margin-left: -380px;
+}
+.baby {
+  margin-left: -480px;
+}
+.home {
+  margin-left: -600px;
+}
+.sports {
+  margin-left: -780px;
+}
